@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Downloads</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body { background-color: #f4f7f6; }
+        footer { background-color: #0d6efd; display: flex; align-items: center; justify-content: center;o}
+        .card { border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.2s ease-in-out; }
+        .card:hover { transform: translateY(-5px); }
+        .icon-display { font-size: 4rem; color: #0d6efd; }
+        .footer-logo { height: 5em; width: 5em;}
+    </style>
+</head>
+<body>
+
+    <div class="container my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-5">Escolha o seu template</h1>
+            <p class="lead text-muted">Escolha um template para o seu portfólio nos seguintes níveis</p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body p-4">
+                        <div class="icon-display mb-3"><i class="bi bi-box-fill"></i></div>
+                        <h5 class="card-title">Iniciante</h5>
+                        <p class="card-text">Você que nunca usou nem ouviu falar em html, css e bootstrap pode seguir por este caminho.</p>
+                        <a href="templates/iniciante.html" class="btn btn-primary w-100" download>
+                            <i class="bi bi-download me-2"></i>Baixar Template
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body p-4">
+                        <div class="icon-display mb-3"><i class="bi bi-filetype-html"></i></div>
+                        <h5 class="card-title">Intermediario</h5>
+                        <p class="card-text">Você que já tem uma noção sobre html e css, mas nunca usou um framework como boostrap, pode seguir por este caminho.</p>
+                        <a href="templates/intermediario.html" class="btn btn-primary w-100" download>
+                             <i class="bi bi-download me-2"></i>Baixar Template
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body p-4">
+                        <div class="icon-display mb-3"><i class="bi bi-bootstrap"></i></div>
+                        <h5 class="card-title">Avançado</h5>
+                        <p class="card-text">Se você já se aventurou no mundo do frontend e sabe todos os conceitos básicos, vá por aqui!</p>
+                        <a href="templates/avancado.html" class="btn btn-primary w-100" download>
+                            <i class="bi bi-download me-2"></i>Baixar Template  
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-15 mb-4">
+                <div class="card h-100 text-center">
+                    <div class="card-body p-4">
+                        <div class="icon-display mb-3"><i class="bi bi-journal-text"></i></div>
+                        <h5 class="card-title">Documentação do Bootstrap</h5>
+                        <p class="card-text">Este é o manual feito pelos desenvolvedores do bootstrap, aqui você aprende de tudo que há neste framework.</p>
+                        <a href="https://getbootstrap.com/docs/" class="btn btn-primary w-100 mb-3" download>
+                            <i class="bi bi-globe-americas me-1"></i>Documentação atualizada v5.3 (Inglês)
+                        </a>
+                        <a href="https://getbootstrap.com.br/docs" class="btn btn-primary w-100" download>
+                            <i class="bi bi-globe-americas me-1"></i>Documentação em Português v4.1
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+<footer class="p-4 text-white">
+    <img class="footer-logo" src="img/lab-ideias.svg">
+    <img class="footer-logo" src="img/ifrs-logo.svg">
+</footer>
+</html>
